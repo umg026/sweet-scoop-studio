@@ -7,20 +7,20 @@ const Navbar = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   const navLinks = [
-    { label: "Flavors", href: "#flavors" },
+    { label: "Products", href: "/products" },
     { label: "Our Story", href: "#about" },
     { label: "Locations", href: "#locations" },
     { label: "Contact", href: "#contact" },
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-card/80 backdrop-blur-lg border-b border-border">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-border">
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-2 group">
-          <IceCreamCone className="w-8 h-8 text-accent transition-transform duration-300 group-hover:rotate-12" />
+        <a href="/" className="flex items-center gap-2 group">
+          <img src="/meera.jpg" alt="" className="w-50 h-50" style={{ width: "72px", height: "60px" }} />
           <span className="font-display text-2xl font-bold text-primary tracking-tight">
-            Dolce
+            MEERA
           </span>
         </a>
 

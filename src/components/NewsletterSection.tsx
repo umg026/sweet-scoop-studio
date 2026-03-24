@@ -20,27 +20,8 @@ const NewsletterSection = () => {
           <h2 className="font-display text-4xl md:text-5xl font-bold text-primary-foreground mb-4">
             Stay in the Scoop
           </h2>
-          <p className="font-body text-primary-foreground/70 mb-8">
-            Get exclusive offers, new flavor alerts, and sweet surprises delivered to your inbox.
-          </p>
-          <form
-            onSubmit={(e) => e.preventDefault()}
-            className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto"
-          >
-            <input
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder="your@email.com"
-              className="flex-1 bg-primary-foreground/10 border border-primary-foreground/20 rounded-full px-5 py-3 text-sm font-body text-primary-foreground placeholder:text-primary-foreground/40 focus:outline-none focus:ring-2 focus:ring-accent/60"
-            />
-            <Button
-              type="submit"
-              className="bg-accent text-accent-foreground hover:bg-accent/90 rounded-full px-8 font-body font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5"
-            >
-              Subscribe
-            </Button>
-          </form>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.9811200343424!2d72.4213145!3d24.1723949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395cebe5beb42089%3A0x65dc5d312b363296!2sMEERA%20ICE%20CREAM%20New%20branch!5e0!3m2!1sen!2sin!4v1774368168723!5m2!1sen!2sin" width="600" height="450" style={{ border: "0" }} loading="lazy"></iframe>
+
         </motion.div>
       </div>
     </section>

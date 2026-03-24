@@ -7,12 +7,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="md:col-span-1">
-            <a href="#" className="flex items-center gap-2 mb-4">
-              <IceCreamCone className="w-7 h-7 text-accent" />
-              <span className="font-display text-xl font-bold">Dolce</span>
+            <a href="/" className="flex items-center gap-2 group">
+              <img src="/meera.jpg" alt="" className="w-50 h-50" style={{ width: "72px", height: "60px" }} />
+              <span className="font-display text-2xl font-bold text-white text-primary tracking-tight">
+                MEERA
+              </span>
             </a>
             <p className="font-body text-sm text-primary-foreground/60 leading-relaxed">
-              Premium artisan ice cream, handcrafted with love and the finest natural ingredients.
+              Premium ice cream, handcrafted with love and the finest natural ingredients.
             </p>
           </div>
 
