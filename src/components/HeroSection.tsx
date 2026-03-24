@@ -20,15 +20,19 @@ const HeroSection = () => {
             Scoops of
             <br />
             <span className="text-accent italic">Pure Joy</span>
+            <br /> <span className="mt-10">
+
+              <span className="italic">With</span> <span className="text-accent">Meera</span>
+            </span>
           </h1>
           <p className="font-body text-lg text-muted-foreground leading-relaxed mb-8 max-w-md">
-            Premium artisan ice cream made with the finest natural ingredients. Every scoop is a moment of indulgence.
+            Meera Icecream provides a delicious range of all-natural ice creams and revitalizing beverages that are perfect for refreshing your day.
           </p>
           <div className="flex flex-wrap gap-4">
-            <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 font-body font-semibold text-base shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5">
+            <a href="/products" className="bg-primary text-primary-foreground hover:bg-primary/90 flex items-center rounded-full px-8 font-body font-semibold text-base shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5">
               Explore Products
-            </Button>
-            <Button size="lg" variant="outline" className="rounded-full px-8 font-body font-semibold text-base border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300">
+            </a>
+            <Button onClick={() => window.location.href = "https://sweet-scoop-studio.vercel.app/not-found"} size="lg" variant="outline" className="rounded-full px-8 font-body font-semibold text-base border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300">
               Our Story
             </Button>
           </div>
