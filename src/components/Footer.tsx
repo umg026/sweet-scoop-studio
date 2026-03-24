@@ -20,9 +20,8 @@ const Footer = () => {
           <div>
             <h4 className="font-display text-sm font-semibold mb-4">Explore</h4>
             <ul className="space-y-2 font-body text-sm text-primary-foreground/60">
-              <li><a href="#flavors" className="hover:text-accent transition-colors duration-200">Flavors</a></li>
+              <li><a href="#products" className="hover:text-accent transition-colors duration-200">Products</a></li>
               <li><a href="#about" className="hover:text-accent transition-colors duration-200">Our Story</a></li>
-              <li><a href="#locations" className="hover:text-accent transition-colors duration-200">Locations</a></li>
               <li><a href="#contact" className="hover:text-accent transition-colors duration-200">Contact</a></li>
             </ul>
           </div>

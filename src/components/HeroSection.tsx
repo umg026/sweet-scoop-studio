@@ -26,7 +26,7 @@ const HeroSection = () => {
           </p>
           <div className="flex flex-wrap gap-4">
             <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 font-body font-semibold text-base shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5">
-              Explore Flavors
+              Explore Products
             </Button>
             <Button size="lg" variant="outline" className="rounded-full px-8 font-body font-semibold text-base border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300">
               Our Story
