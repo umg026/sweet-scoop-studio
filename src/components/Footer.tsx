@@ -57,7 +57,11 @@ const Footer = () => {
 
         <div className="mt-12 pt-8 border-t border-primary-foreground/10 text-center">
           <p className="font-body text-xs text-primary-foreground/40">
-            © 2025 Dolce Ice Cream. All rights reserved.
+            © 2025 Meera Ice Cream. All rights reserved.
+          </p>
+
+           <p className="font-body text-xs text-white mt-10">
+            Created By: <a href="https://www.instagram.com/umang_prajapati026">@Umang prajapati</a>
           </p>
         </div>
       </div>

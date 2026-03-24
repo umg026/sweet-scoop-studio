@@ -41,7 +41,7 @@ const Products = () => {
                   <div className="p-5">
                     <h3 className="font-display text-lg font-semibold text-foreground">{product.name}</h3>
                     <p className="font-body text-sm text-muted-foreground mt-1">{product.desc}</p>
-                    <p className="font-body text-lg font-bold text-primary mt-2">{product.price}</p>
+                    {/* <p className="font-body text-lg font-bold text-primary mt-2">{product.price}</p> */}
                   </div>
                 </div>
               </motion.div>
